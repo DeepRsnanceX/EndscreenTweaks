@@ -93,7 +93,7 @@ migration failed, womp womp)";
 				str = str.replace(0, 2, "\"");
 			}
 			if (!Mod::get()->getSavedValue<bool>("noHyphens")) {
-				str = fmt::format("- {} -", str);
+				str = fmt::format("{}", str);
 			}
 			manager->quotes.push_back(str);
 			manager->customQuotes.push_back(str);
