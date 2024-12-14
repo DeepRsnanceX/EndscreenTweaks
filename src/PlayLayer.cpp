@@ -77,7 +77,7 @@ class $modify(MyPlayLayer, PlayLayer) {
 			toModify->addChild(underLabel);
 			toModify->updateLayout();
 			underLabel->setPosition(toModify->getContentSize() / 2.f);
-			underLabel->setID("custom-level-complete-label-playlayer"_spr);
+			underLabel->setID("custom-level-complete-label-playlayer-underlay"_spr);
 			underLabel->setZOrder(0);
 			lctReplaced = true;
 		}
