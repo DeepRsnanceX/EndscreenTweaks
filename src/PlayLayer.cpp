@@ -60,7 +60,7 @@ class $modify(MyPlayLayer, PlayLayer) {
 			lctReplaced = true;
 		}
 		if (manager->chosenMode == "Oxygene One" && !manager->sharedReplacementLabel.empty() && !lctReplaced) {
-			// Main Font
+			// Main Font, untouched
 			CCLabelBMFont* newLabel = CCLabelBMFont::create(manager->sharedReplacementLabel.c_str(), "levelCompleteFont.fnt"_spr);
 			newLabel->setExtraKerning(5);
 			newLabel->limitLabelWidth(380.f, 1.0f, 0.25f);
